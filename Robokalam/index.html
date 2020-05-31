@@ -17,7 +17,14 @@
   </head>
   <body>
     <div id="wrapper">
-      <form action="">
+      <form
+        name="demo"
+        onsubmit="return validateFormOnSubmit(this)"
+        action=""
+        class="form"
+        method="POST"
+        data-netlify="true"
+      >
         <div class="header">
           <h1>Diet plan bot<i class="fa fa-apple"></i></h1>
         </div>
@@ -26,7 +33,12 @@
             <p>Full Name</p>
           </div>
           <div class="ip">
-            <input type="text" name="full name" id="name" required />
+            <input
+              type="text"
+              name="full name"
+              id="name"
+              oninput="validateUsername()"
+            />
           </div>
         </div>
         <div class="agensex">
