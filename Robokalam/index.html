@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Diet plan bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- CSS -->
+    <script src="main.js"></script>
+
+    <!-- Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <form action="">
+        <div class="header">
+          <h1>Diet plan bot<i class="fa fa-apple"></i></h1>
+        </div>
+        <div class="name">
+          <div class="label">
+            <p>Full Name</p>
+          </div>
+          <div class="ip">
+            <input type="text" name="full name" id="name" required />
+          </div>
+        </div>
+        <div class="agensex">
+          <div class="age">
+            <p>
+              Age
+              <input type="number" name="age" id="age" required />
+            </p>
+          </div>
+          <div class="sex">
+            <p>
+              Sex
+              <select name="sex" id="sex">
+                <option value="Select"></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </p>
+          </div>
+        </div>
+        <div class="heightnweight">
+          <div class="height">
+            <p>
+              Height
+              <input type="number" name="height" id="height" />
+            </p>
+          </div>
+          <div class="weight">
+            <p>
+              Weight
+              <input type="number" name="weight" id="weight" />
+            </p>
+          </div>
+        </div>
+        <div class="occupation">
+          <div class="label">
+            <p>Occupation</p>
+          </div>
+          <div class="ip">
+            <input type="text" name="occupation" id="occupation" />
+          </div>
+        </div>
+        <div class="infection">
+          <input
+            type="text"
+            name="infection"
+            id="infection"
+            placeholder="Any Fungal Infections ?"
+          />
+        </div>
+        <div class="fever">
+          <input
+            type="text"
+            name="fever"
+            id="fever"
+            placeholder="Do you get Fever frequently ?"
+          />
+        </div>
+        <div class="fatigue">
+          <input
+            type="text"
+            name="fatigue"
+            id="fatigue"
+            placeholder="Will you get fatigue easily ?"
+          />
+        </div>
+        <div class="btn">
+          <button type="submit"><i class="fa fa-arrow-right"></i></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
